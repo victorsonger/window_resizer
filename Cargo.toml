@@ -1,0 +1,13 @@
+[package]
+name = "window_resizer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tao = "0.14"
+device_query = "0.2"
+
+cocoa = "0.24"
+objc = "0.2"
+core-foundation = "0.9"  # 或者适当版本
+core-graphics = "0.22"  # 处理窗口的图形库
